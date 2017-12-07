@@ -126,7 +126,7 @@ header a:hover{
   border: 0;
   float:left;
   width: 25%;
-  text-align: left;
+  text-align: center;
 }
 footer{
   border-bottom-left-radius: 10px;
@@ -147,6 +147,16 @@ footer #piePagina{
 }
 #imagenCentral img{
   width: 100%;
+}
+.contenedor .redes{
+  float:right;
+  display: inline;
+  text-align: right;
+  padding:  0 20px 0 20px;
+}
+.contenedor .redes img{
+  width: 10%;
+  float:left;
 }
 @media(max-width: 768px){
   header div nav,
